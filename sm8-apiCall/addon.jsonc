@@ -1,0 +1,24 @@
+{
+  "$schema": "./node_modules/@servicem8/addon-kit/addon-schema.json",
+
+  // The unique identifier for this add-on (lowercase, digits, hyphens).
+  // Deploys upsert on this — changing it creates a NEW add-on.
+  "slug": "spx-docusign-addon",
+
+  // The customer-facing name shown in the Add-on Store.
+  "name": "SPX DocuSign AddOn",
+  "version": "1.0",
+
+  // Entry point, bundled by addon-kit deploy (defaults to index.js).
+  "main": "src/index.ts",
+
+  "actions": [
+    {
+      "name": "SPX DocuSign AddOn",
+      "type": "online",
+      "entity": "job",
+      "iconURL": "https://spx-aws-s3bucket001.s3.ap-south-1.amazonaws.com/spx-images/SPX%20Logo%20Green%20White.png?response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmFwLXNvdXRoLTEiRzBFAiBqofQbBc7vuh9PdauIBDjLppTuflZ3zEBJqeiyIMCAWQIhAIEiGoVMssgucoyZbZT8WZakxFQo8aCXJfSRslWjuyXDKsIDCJ7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMOTg3NjUzOTA1OTA1Igx42i9kvRQUN2S3xyIqlgPgNCNNPsd3Zez7W4plSPuPqepbuZKTayOdOqATgFLmVcA6Uw8498y3YZRijQAvizFpFjH4IgyqgVCBCPw7gACTG95QgeIFq8GSCEJfoTgO21KhZ%2Bn8ntJ5MlsCP8IuY1EyQBAYYzC4iTJSAC9DmuvX6NKmc68k3v1TamAVa6e%2B%2FbuVEi2VgBeqtqQ2G4BzTuUc%2FkNk1spf1EfcYauY6Ol2mk19Shk22mfv9h30URI6BCE6unDXtoNSkwCabhyGHvsE7A%2Bm5%2BqVzx6%2Bn2tH1Qdtkd%2FB0M8xFXDEzmJeNrYAwMffvBiIVufcsF%2BgEjvQdQsQJJGOAB07l9XL2wzMlYC1BK41arSwBmRzXOmDi8IrEycFp%2FwmU2BTcXFFqJegV5eRzhLVpYJVnXnHtjGcDcdto7Ve7MPjRkzg%2BnvzrUPMGLUbJyliD2mG5C8yTYlyMHC%2B04H%2BhxpfbyGP%2FquFO9F8nA8Tjjyn1jQ4bqULQ5ZTKZwKJDvFNCDg6bg7fu66vQlyvYkyNxkGnCCmqoQUL6oLrvV041U%2FMLb1j9UGOt4CbS8RUy6tv8ZRXPPhHl1ueR0tBsZXKTKN6Q972eLFmI%2B3lIvAdWG9hvy6ZTo2et2q27IBpCLWEW7SHNC%2BKs0N67B6XCccCMyfCpx0hlJixNJBNiSl0B7ZTkTkzBLfozzKLlqirejwUXTagyVo9OZ4fI%2BXo903L2Ir2e6qgJ9wjLDCzhxcRD57wqL5FmIAvUXxbrXi%2BcsdXoG2Cc49en%2Fzdxm4zcRlt6bqD3zv7m%2BsCLb8KOjz4sHBKq8DvZ62EtE1VT5LHzkiJCE%2FyBDRhJtZVEMKZWQdnuTRNuH8t9NdnvMm3XrLbG7S0R1MuWnsnz%2Ft5%2Ft1H0j5i6KhejCW3BmjSjWipyFhzI7LiNtXCncTfuGNfNbSGCfM8hG%2B1xttHX2%2FqK0OHuo9cvvAAZBEopdJe98PR9GNye2LxsJeXEfh2Y751FXrfkU7tOfGLI631IoUAh2bIzVfCt%2FO1OATIZA%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA6L5GCTXY6G76XTI2%2F20260911%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260911T125901Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=e541a3c72473d1223b1f13f7432c939efb361caf03001943eba9774b7ee0992d",
+      "event": "init_addon",
+    },
+  ],
+}

@@ -1,0 +1,11 @@
+{
+  "name": "p-sm8-addon",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "addon-kit deploy"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
