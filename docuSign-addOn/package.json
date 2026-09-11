@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "jsonwebtoken": "^9.0.3",
+    "servicem8": "^0.9.54",
+    "uuid": "^14.0.2"
+  }
+}
